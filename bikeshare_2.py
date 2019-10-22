@@ -19,29 +19,29 @@ def get_filters():
     print()
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    while True:        
-        city = input('Choose the city you want to know the Bikeshare data: Chicago, New York City, Washington:\n').lower() 
-        if city not in ('chicago', 'new york city', 'washington'):         
-            print('Wrong Input,  please check your spelling then try again!\n')            
+    while True:
+        city = input('Choose the city you want to know the Bikeshare data: Chicago, New York City, Washington:\n').lower()
+        if city not in ('chicago', 'new york city', 'washington'):
+            print('Wrong Input,  please check your spelling then try again!\n')
             continue
         else:
             break
 
-    # get user input for month (all, january, february, ... , june)  
-    while True:        
+    # get user input for month (all, january, february, ... , june)
+    while True:
         month = input('Choose what month for Bikeshare data: January, February, March, April, May, June or All:\n').lower()
-        if month not in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):         
-            print('Wrong Input,  please check your spelling then try again!\n')           
+        if month not in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
+            print('Wrong Input,  please check your spelling then try again!\n')
             continue
         else:
             break
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    
-    while True:        
+
+    while True:
         day = input('Choose what day for Bikeshare data: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or All:\n').lower()
-        if day not in ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all'):         
-            print('Wrong Input,  please check your spelling then try again!\n')            
+        if day not in ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all'):
+            print('Wrong Input,  please check your spelling then try again!\n')
             continue
         else:
             break
@@ -86,12 +86,12 @@ def time_stats(df):
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
     # display the most common month
-    
+
     df['date']  = pd.to_datetime(df['Start Time'])
     df['month'] = df['date'].dt.month
     common_month = df['month'].mode()[0]
     print('Most common Month:', common_month)
-    
+
     # display the most common day of week
     df['day of week'] = df['date'].dt.weekday_name
     common_day_of_week = df['day of week'].mode()[0]
@@ -186,7 +186,7 @@ def display_data(df):
     row_length = df.shape[0]
 
     for i in range(0, row_length, 5):
-        
+
         yes = input('\nDo you want to display atleast 5- raw data? Please input: \'yes\' or \'no\'\n ')
         if yes.lower() != 'yes':
             break
@@ -210,7 +210,7 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             print()
-            print('Have a good one! Til\' next time!')
+            print('Have a good one! Til\' next time my friend!')
             break
 
 
