@@ -19,7 +19,7 @@ The *Python* program will answer mostly the following information: Based on the 
 * The earliest , most recent and most popular **birth years**
 
 ### Files used
-The csv files used for this **Bikeshare Project** is located in the link below:
+The csv files used for this **Bikeshare Project** is located in the link:
 [Bikeshare csvFiles](https://drive.google.com/open?id=17BeyXYVIbTVrNdyperhB9f0CYcGji-AE)
 
 ### Credits
