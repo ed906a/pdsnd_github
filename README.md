@@ -2,7 +2,7 @@
 The Python Project for **Udacity Programming for Data Science** was created on Oct. 9, 2019. This README file is updated Oct. 21, 2019 for the *Version Control Project*
 
 ### Project Title
-**Explore US Bikeshare Data**
+**Explore US-Bikeshare Data - Python Project**
 
 ### Description
 This is a *Python* script project for **Udacity Programming for Data Science** that is used to explore the data related bikeshare systems in Chicago, New York City, and Washington. The data is from imported csv files and the *Python* script/program will calculate the statistics from the csv data from interactive user input.
