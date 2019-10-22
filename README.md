@@ -24,5 +24,5 @@ The csv files used for this **Bikeshare Project** is located in the link below:
 
 ### Credits
 **Resources/References to complete this Project:**
-* https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.idxmax.html - automatic!
-* stackoverflow.com - automatic! *(forums, search on error and syntax)*
+* https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.idxmax.html
+* https://stackoverflow.com *(forums, search on error and syntax)*
