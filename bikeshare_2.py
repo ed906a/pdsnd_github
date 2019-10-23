@@ -161,7 +161,7 @@ def user_stats(df):
     print()
     # Display counts of gender
     if 'Gender' not in df.columns:
-        print('Sorry, there is no gender info for this city.')
+        print('Sorry,  gender info is not availbale for this city.')
     else:
         gender_count = df['Gender'].value_counts()
         print('Count of Gender:\n ',gender_count)
@@ -169,7 +169,7 @@ def user_stats(df):
     # Display earliest, most recent, and most common year of birth
     print('Year of Birth Stats:')
     if 'Birth Year' not in df.columns:
-        print('Sorry, there is no birth year info for this city.')
+        print('Sorry,  birth year info is not available for this city.')
     else:
         min_birth = df['Birth Year'].min()
         print('Earliest year of birth:', int(min_birth))
@@ -179,7 +179,7 @@ def user_stats(df):
         print('Most common birth year', int(common_birth))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*45)
 
 def display_data(df):
     """Displays raw bikeshare data."""
