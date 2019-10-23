@@ -179,7 +179,7 @@ def user_stats(df):
         print('Most common birth year', int(common_birth))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*45)
 
 def display_data(df):
     """Displays raw bikeshare data."""
