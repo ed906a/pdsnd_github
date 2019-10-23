@@ -169,7 +169,7 @@ def user_stats(df):
     # Display earliest, most recent, and most common year of birth
     print('Year of Birth Stats:')
     if 'Birth Year' not in df.columns:
-        print('Sorry, there is no birth year info for this city.')
+        print('Sorry,  birth year info is not available for this city.')
     else:
         min_birth = df['Birth Year'].min()
         print('Earliest year of birth:', int(min_birth))
