@@ -7,6 +7,8 @@ The Python Project for **Udacity Programming for Data Science** was created on O
 ### Description
 This is a *Python* script project for **Udacity Programming for Data Science** that is used to explore the data related bikeshare systems in Chicago, New York City, and Washington. The data is from imported csv files and the *Python* script/program will calculate the statistics from the csv data from interactive user input.
 
+The User will have an option to select from the 3-cities and the program will give all the statistics for the bikeshare data explain below.
+
 The *Python* program will answer mostly the following information: Based on the city input of the user:
 * The most **popular month** for start time
 * The most **popular day** of the Week
