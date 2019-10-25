@@ -1,5 +1,6 @@
 ### Date created
-The Python Project for **Udacity Programming for Data Science** was created on Oct. 9, 2019. This README file is updated Oct. 21, 2019 for the *Version Control Project*
+The Python Project for **Udacity Programming for Data Science** was created on Oct. 9, 2019. This README file is updated Oct. 21, 2019 for the *Version Control Project*.
+Revision was made for this project after the initial review on Oct. 24, 2019.
 
 ### Project Title
 **Explore US-Bikeshare Data - Python Project**
